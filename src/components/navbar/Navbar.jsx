@@ -5,20 +5,20 @@ import logo from '../../assets/logo.png'
 
 
 
-export default function Navbar() {
+export default function NavbarTop() {
     return (
         <Navbar >
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo} alt=""/>
                     
-                    <Navbar.Text > <Link className="text-decoration-none  text-white"  to={'/'}>Soundwave</Link> </Navbar.Text>
+                    <Navbar.Text > Soundwave</Navbar.Text>
                 </Navbar.Brand>
 
                 
                     <Nav className="ms-auto">
-                        <Nav.Link className="text-white text-xl" ><Link  className="text-decoration-none text-white  " to={'/Discover'}>Discover</Link></Nav.Link>
-                        <Nav.Link ><Link className="text-decoration-none text-white " to={'/Join'}>Join</Link></Nav.Link>
+                        <Nav.Link className="text-white text-xl" >Discover</Nav.Link>
+                        <Nav.Link >Join</Nav.Link>
                     </Nav>
                 
             </Container>
