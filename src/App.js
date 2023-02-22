@@ -1,10 +1,10 @@
-
-import './GlobalStyles.css';
+import "./GlobalStyles.css";
+import Home from "./components/views/home/Home";
 
 function App() {
   return (
     <div>
-      holi
+      <Home />
     </div>
   );
 }
