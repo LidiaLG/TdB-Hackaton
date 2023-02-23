@@ -1,6 +1,18 @@
 # Marketplace TdB (Tienda de Barrio)
 
+Deploy [TdB] (https://tdb-tiendadebarrio.vercel.app/)
+
 Team:
+
+- Lidia
+- Denis
+- Fabio
+- Mohamedd
+- Juliana
+- Leidy
+- Mey
+- Pere Josep
+- Claudette
 
 ![logo](../TdB-Hackaton/src/img/logo.png)
 
@@ -77,3 +89,5 @@ Cuando se pulse sobre la imagen de alguno de los servicios ofertados se enlazar√
 Repositorio gitHub [Enlace](https://github.com/LidiaLG/TdB-Hackaton).
 Trello [Enlace](https://trello.com/b/eLoc4xmQ/hackathon-equipo-9).
 Figma [Enlace](https://www.figma.com/file/xCrzLmtJe4VLk8QIMiJqH4/MarketPlaceCaixaBank?node-id=11%3A3&t=1P7GkCBVaaYm8EvV-0)
+
+Deploy [TdB] (https://tdb-tiendadebarrio.vercel.app/)
