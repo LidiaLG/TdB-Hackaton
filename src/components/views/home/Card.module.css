@@ -1,0 +1,18 @@
+.card {
+
+width: 80%;
+ margin:0 auto;
+background-color: rgba(255, 231, 196, 1);
+padding: 1em;
+margin-bottom: 2em;
+}
+
+.icon {
+    color:rgba(192, 101, 0, 1);
+    width:40px;
+    height: 40px;
+    margin-left: 35%;
+
+
+}
+
