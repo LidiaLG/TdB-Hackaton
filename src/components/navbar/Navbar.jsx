@@ -16,7 +16,7 @@ export default function NavBar () {
     <Navbar className='my-2 '  style={{ background: 'linear-gradient(to right, rgba(0, 0, 0, 0), rgba(192, 101, 0, 1))' }}>
         <Container>
         <Navbar.Brand md='2' >
-        <Link to="/"> <img src={logo} className="App-logo" alt="logo" height={45}/> </Link>
+        <Link to="/"> <img src={logo} className="" alt="logo" height={60}/> </Link>
         </Navbar.Brand>
         <Nav> 
           <h1>TDB</h1>

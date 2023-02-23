@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <MDBFooter className='text-white' style={{backgroundColor: '#C06500'}}>
+    <MDBFooter className='text-white fixed-bottom' style={{backgroundColor: '#C06500'}}>
       <MDBContainer className='p-3 d-flex justify-content-around align-items-center'>
       <h4 className='text-white text-center mb-0'>CONTACTANOS</h4>
         <section className='align-items-center'>
