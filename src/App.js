@@ -8,6 +8,7 @@ import Home from './components/views/home/Home';
 import Login from "./components/views/Login";
 import Product from "./components/views/Product";
 
+
 function App() {
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/product" element={<Product/>} />
         </Routes>
 
-
+      
       </Router>
 
 
