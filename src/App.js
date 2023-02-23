@@ -1,8 +1,7 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/navbar/Navbar';
-
+import './GlobalStyles.css'
 import Home from './components/views/home/Home';
 
 
@@ -13,7 +12,7 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar/>
+        
 
         <Routes>
           <Route path="/" element={<Home/>} />
