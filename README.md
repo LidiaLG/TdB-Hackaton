@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Marketplace TdB (Tienda de Barrio)
+
+Una asociación de un barrio nos solicita la creación de una aplicación que ayude a mejorar el tejido social y de comercios del barrio.
+
+Pensando en los vecinos, la gente mayor y los pequeños comercios locales creamos una aplicación que permita ofrecer servicios personales y comerciales a nivel local (dentro del margen del barrio).
+
+De este modo:
+
+- Los vecinos podran conocer qué servicios se ofrecen cerca de su casa.
+- Los vecinos podrán adquirir dichos servicios o contactar con los ofertantes.
+- El comercio local tendrá un pequeño escaparate para llegar al vecindario.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
