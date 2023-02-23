@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import logo from '../../img/logo.png'
-import { AiOutlineShoppingCart, AiOutlineSearch, AiFillHeart, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineShoppingCart, AiOutlineSearch, AiFillHeart, } from "react-icons/ai";
  import { BsFillPersonFill } from "react-icons/bs";
  import styles from './Navbar.module.css'
 
