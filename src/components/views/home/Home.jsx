@@ -11,7 +11,7 @@ const Home = () => {
         
         <NavbarTop/>
 
-        <Container style={{paddingTop: '2rem', paddingBottom: '2rem'}}>
+        <Container className={styles.container}>
           <Row>
             
              <h1 className={styles.h1}> Tu tienda de barrio al ancance de tu mano</h1>
@@ -47,7 +47,7 @@ const Home = () => {
               precio="10 €/h"/>
           </Col>
           </Row>    
-        </Container>
+        </Container >
 
               <Footer/> 
     </div>

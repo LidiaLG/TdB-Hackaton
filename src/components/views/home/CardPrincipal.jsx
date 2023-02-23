@@ -1,3 +1,4 @@
+import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import {  AiFillHeart, } from "react-icons/ai";
@@ -12,8 +13,10 @@ const CardPrincipal = (props) => {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>{props.precio}</Card.Text>
-        <Link to="/product"> <Button variant="primary">Comprar</Button></Link>
+        <div className="d-flex justify-content-between mt-4" >
+        <Link to="/product"> <Button className="rounded-8 mt-2" style={{backgroundColor: '#C06500'}} variant="primary">Detalles</Button></Link>
         <AiFillHeart className={styles.icon} />
+        </div>
       </Card.Body>
     </Card>
   );
