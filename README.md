@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Marketplace TdB (Tienda de Barrio)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Team:
 
-## Available Scripts
+![logo](../TdB-Hackaton/src/img/logo.png)
 
-In the project directory, you can run:
+Una asociación de un barrio nos solicita la creación de una aplicación que ayude a mejorar el tejido social y de comercios del barrio.
 
-### `npm start`
+Pensando en los vecinos, la gente mayor y los pequeños comercios locales creamos una aplicación que permita ofrecer servicios personales y comerciales a nivel local (dentro del margen del barrio).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+De este modo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Los vecinos podrán conocer qué servicios se ofrecen cerca de su casa.
+- Los vecinos podrán adquirir dichos servicios o contactar con los ofertantes.
+- El comercio local tendrá un pequeño escaparate para llegar al vecindario.
 
-### `npm test`
+## Objetivos funcionales y requisitos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Crear una página de presentación a modo de galería en la que el usuario final pueda ver los servicios ofertados.
 
-### `npm run build`
+La página será accesible tanto desde el móvil como desde un navegador (responsive).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+La página dispone de Navbar con logo/marca del marketplace e iconos de:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- carrito de compra
+- filtro de favoritos
+- login de cliente (usuario que accede como vendedor)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La galería mostrará una serie de 'cards' con:
 
-### `npm run eject`
+- imagen de presentación
+- nombre del servicio ofertado
+- precio
+- icono para marcar como favorito
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Al final de la página debe aparecer un 'footer' con:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- iconos 'social media'
+- enlace de contacto al equipo de mantenimiento de la página.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Cuando se pulse sobre la imagen de alguno de los servicios ofertados se enlazará a una página de detalle del servicio/producto que incorporará:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- imagen
+- nombre del servicio![logo](../TdB-Hackaton/src/img/logo.png)
+- precio
+- datos de contacto del ofertante
+- ampliación de información del servicio
 
-## Learn More
+## Metodología / Herramientas
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Daily review para poner puntos en común de desarrollo, necesidades y roles
+- Hemos necesitado comunicarnos en diferentes idiomas (español, inglés y francés)
+- Trello
+  ![trello](../TdB-Hackaton/src/img/trello.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Creado sketch final con Figma
 
-### Code Splitting
+![Figma](../TdB-Hackaton/src/img/figma.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Creado repositorio en gitHub
+- Uso de 'branches' con git
+- JavaScript
+- React:
+  - Bootstrap
+  - Router
+  - Stiled components
+  - librería iconos de React
 
-### Analyzing the Bundle Size
+![codigo](../TdB-Hackaton/src/img/codigo.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Fuentes de Google
+- Html
+- CSS
 
-### Making a Progressive Web App
+## Enlaces
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Repositorio gitHub [Enlace](https://github.com/LidiaLG/TdB-Hackaton).
+Trello [Enlace](https://trello.com/b/eLoc4xmQ/hackathon-equipo-9).
+Figma [Enlace](https://www.figma.com/file/xCrzLmtJe4VLk8QIMiJqH4/MarketPlaceCaixaBank?node-id=11%3A3&t=1P7GkCBVaaYm8EvV-0)
