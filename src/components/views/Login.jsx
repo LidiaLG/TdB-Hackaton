@@ -1,16 +1,20 @@
-
+import NavBar from '../navbar/Navbar';
 import React from 'react';
 import {
     MDBInput,
     MDBBtn,
     MDBIcon
 } from 'mdb-react-ui-kit';
+import { Container } from 'react-bootstrap';
+import Footer from '../footer/Footer';
 
 const Login = () => {
     return (
         <>
+        <NavBar/>
+        <Container className="d-flex justify-content-center" >
         <form className='container m-4 p-5 rounded-7' style={{backgroundColor: '#FFCB7D'}}>
-            <h2 className='text-center pb-1'>Crear cuenta</h2>
+            <h2 className='text-center pb-1'style={{fontSize: '30px'}}>Crear cuenta</h2>
             <MDBInput className='mb-4' type='user' id='form2Example1' label='Usuario' />
             <MDBInput className='mb-4' type='email' id='form2Example1' label='Email' />
             <MDBInput className='mb-4' type='password' id='form2Example2' label='Contraseña' />
@@ -37,6 +41,8 @@ const Login = () => {
 
             </div>
         </form>
+        </Container>
+        <Footer/>
         </>
     );
 }

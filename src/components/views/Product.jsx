@@ -9,7 +9,7 @@ export default function Product() {
     return (
       <>
         <NavBar/>
-        <Container className="d-flex justify-content-center">
+        <Container className="d-flex justify-content-center" >
         <DetailCard
           img="https://www.shbarcelona.es/blog/es/wp-content/uploads/2015/06/clases-guitarra-ensenada-mexico.jpg"
           title="Clases de guitarra"
