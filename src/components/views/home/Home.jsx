@@ -25,26 +25,26 @@ const Home = () => {
           <Col>
             <CardPrincipal
               img="https://www.shbarcelona.es/blog/es/wp-content/uploads/2015/06/clases-guitarra-ensenada-mexico.jpg"
-              title="Clases de guitarra"
-              precio="15 €"/>
+              title="Merluza"
+              precio="5€/kg"/>
           </Col>
           <Col>
             <CardPrincipal
               img="https://www.shbarcelona.es/blog/es/wp-content/uploads/2015/06/clases-guitarra-ensenada-mexico.jpg"
-              title="Clases de guitarra"
-              precio="15 €"/>
+              title="Peras"
+              precio="3€ €/kg"/>
           </Col>
           <Col>
             <CardPrincipal
               img="https://www.shbarcelona.es/blog/es/wp-content/uploads/2015/06/clases-guitarra-ensenada-mexico.jpg"
-              title="Clases de guitarra"
-              precio="15 €"/>
+              title="Bicicleta"
+              precio="50€"/>
           </Col>
           <Col>
             <CardPrincipal
               img="https://www.shbarcelona.es/blog/es/wp-content/uploads/2015/06/clases-guitarra-ensenada-mexico.jpg"
-              title="Clases de guitarra"
-              precio="15 €"/>
+              title="Paseo perros "
+              precio="10 €/h"/>
           </Col>
           </Row>    
         </Container>
