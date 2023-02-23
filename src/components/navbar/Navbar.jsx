@@ -24,7 +24,7 @@ export default function NavBar () {
         
 
         
-        <Navbar.Collapse id="responsive-navbar-nav" md='10' className='d-flex justify-content-end'>
+        <Navbar.Collapse id="responsive-navbar-nav" md='10' className='d-flex justify-content-end '>
             <Nav className="mr-auto">
                 <Nav.Link><Link to="/product"><AiOutlineShoppingCart className={styles.icon}/></Link></Nav.Link>
                 <Nav.Link><AiFillHeart className={styles.icon}/></Nav.Link>
