@@ -1,10 +1,12 @@
 import "./GlobalStyles.css";
-import Home from "./components/views/home/Home";
+import Footer from "./components/footer/Footer";
+import Login from "./components/views/Login";
 
 function App() {
   return (
     <div>
-      <Home />
+      <Login/>
+      <Footer/>
     </div>
   );
 }
