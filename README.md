@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Marketplace TdB (Tienda de Barrio)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deploy [TdB] (https://tdb-tiendadebarrio.vercel.app/)
 
-## Available Scripts
+Team:
 
-In the project directory, you can run:
+- Lidia
+- Denis
+- Fabio
+- Mohamedd
+- Juliana
+- Leidy
+- Mey
+- Pere Josep
+- Claudette
 
-### `npm start`
+![logo](../TdB-Hackaton/src/img/logo.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Una asociación de un barrio nos solicita la creación de una aplicación que ayude a mejorar el tejido social y de comercios del barrio.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Pensando en los vecinos, la gente mayor y los pequeños comercios locales creamos una aplicación que permita ofrecer servicios personales y comerciales a nivel local (dentro del margen del barrio).
 
-### `npm test`
+De este modo:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Los vecinos podrán conocer qué servicios se ofrecen cerca de su casa.
+- Los vecinos podrán adquirir dichos servicios o contactar con los ofertantes.
+- El comercio local tendrá un pequeño escaparate para llegar al vecindario.
 
-### `npm run build`
+## Objetivos funcionales y requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Crear una página de presentación a modo de galería en la que el usuario final pueda ver los servicios ofertados.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+La página será accesible tanto desde el móvil como desde un navegador (responsive).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La página dispone de Navbar con logo/marca del marketplace e iconos de:
 
-### `npm run eject`
+- carrito de compra
+- filtro de favoritos
+- login de cliente (usuario que accede como vendedor)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+La galería mostrará una serie de 'cards' con:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- imagen de presentación
+- nombre del servicio ofertado
+- precio
+- icono para marcar como favorito
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Al final de la página debe aparecer un 'footer' con:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- iconos 'social media'
+- enlace de contacto al equipo de mantenimiento de la página.
 
-## Learn More
+Cuando se pulse sobre la imagen de alguno de los servicios ofertados se enlazará a una página de detalle del servicio/producto que incorporará:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- imagen
+- nombre del servicio![logo](../TdB-Hackaton/src/img/logo.png)
+- precio
+- datos de contacto del ofertante
+- ampliación de información del servicio
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Metodología / Herramientas
 
-### Code Splitting
+- Daily review para poner puntos en común de desarrollo, necesidades y roles
+- Hemos necesitado comunicarnos en diferentes idiomas (español, inglés y francés)
+- Trello
+  ![trello](../TdB-Hackaton/src/img/trello.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Creado sketch final con Figma
 
-### Analyzing the Bundle Size
+![Figma](../TdB-Hackaton/src/img/figma.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Creado repositorio en gitHub
+- Uso de 'branches' con git
+- JavaScript
+- React:
+  - Bootstrap
+  - Router
+  - Stiled components
+  - librería iconos de React
 
-### Making a Progressive Web App
+![codigo](../TdB-Hackaton/src/img/codigo.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Fuentes de Google
+- Html
+- CSS
 
-### Advanced Configuration
+## Enlaces
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Repositorio gitHub [Enlace](https://github.com/LidiaLG/TdB-Hackaton).
+Trello [Enlace](https://trello.com/b/eLoc4xmQ/hackathon-equipo-9).
+Figma [Enlace](https://www.figma.com/file/xCrzLmtJe4VLk8QIMiJqH4/MarketPlaceCaixaBank?node-id=11%3A3&t=1P7GkCBVaaYm8EvV-0)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy [TdB] (https://tdb-tiendadebarrio.vercel.app/)
